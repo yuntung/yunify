@@ -170,6 +170,19 @@ a {
   align-items: center;
 }
 
+.icon-container--accent {
+  background: var(--color-accent);
+}
+
+.icon--white {
+  fill: #fff;
+}
+
+.icon--small {
+  height: 30px;
+  width: 30px;
+}
+
 /* Inputs */
 .input {
   border-radius: var(--border-radius);
@@ -416,5 +429,38 @@ padding: 6rem 6rem;
 @media  screen and (min-width: 768px) {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Testimonial */
+
+.testimonial {
+  padding: 3rem;
+}
+
+.testimonial .quote {
+  margin: 2rem 0;
+  font-size: 110%;
+}
+
+.testimonial__image {
+  position: relative;
+  margin: 0 3rem;
+}
+
+.testimonial__image > .icon-container {
+  position: absolute;
+  top: 3rem;
+  right: -32px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonial .quote,
+  .testimonial .quote__author {
+    font-size: 2.4rem;
+  }
+
+  .testimonial .quote {
+    margin-left: 6rem;
   }
 }
