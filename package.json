@@ -1,0 +1,23 @@
+{
+  "name": "yunify",
+  "version": "1.0.0",
+  "description": "mock up by Mosh HTML & CSS Ultimate course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuntung/yunify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuntung/yunify/issues"
+  },
+  "homepage": "https://github.com/yuntung/yunify#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
